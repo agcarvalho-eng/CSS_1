@@ -8,6 +8,10 @@
     <meta name="author" content="Adriano Carvalho">
 
     <style>
+    body {
+        background-color: #eee;
+
+    }
     form {
         /*Centralizando o formulário na página*/
         margin: 0 auto;
@@ -20,6 +24,7 @@
         /*Tipo de fonte primária*/
         font: 1em times;
         font-size: 14px;
+        color: black;
     }
 
     ul {
@@ -37,6 +42,7 @@
     
     h1 {
         font-size: 30px;
+        color: black;
     }
 
     input, text {
@@ -44,6 +50,11 @@
         width: 100px;
     }
 
+    input:focus, 
+    textarea:focus {
+        /*Adiciona destaque para o elemento quando ele recebe o foco*/
+        border-color: red;
+    }
     </style>
 </head>
 <body>
