@@ -11,38 +11,71 @@
     form {
         /*Centralizando o formulário na página*/
         margin: 0.auto;
-        width: 500px;
+        width: 350px;
         /*Inserindo uma borda de contorno no formulário*/
         padding: 1em;
         border: 1px solid salmon;
-        border-radius: 1em;
+        border-radius: 2em;
         text-align: center;
+        /*Tipo de fonte primária*/
+        font: 1em times;
+        font-size: 14px;
     }
 
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    label {
+        /*Tamanho e alinhamento dos formulários*/
+        display: inline-block;
+        width: 150px;
+        text-align: right;
+    }
     
+    h1 {
+        font-size: 30px;
+    }
+
+    input, textarea {
+        /*Definindo o tamanho dos campos de texto*/
+        /*width: 100px; ***VERIFICAR COM O PROFESSOR*/
+    }
+
     </style>
 </head>
 <body>
  <h1>Vamos Entrar em Contato Comigo</h1>
  <form action="">
-    <label for="nome"> Nome Completo: </label>
-    <input type="text" name="nome" id="nomeCompleto:">
-    <br>
-    <br> 
-    <label for="email">Email: </label>
-    <input type="text" name="email" id="Email:">
-    <br>
-    <br>
-    <label for="mensagem">Entre sua mensagem:</label>
-    <br>
-    <textarea name="mensagem" id="mensagem" cols="35" rows="10"></textarea>
-    <br>
-    <br>
+    <ul>
+        <li>
+           <label for="nome"> Nome Completo: </label>
+           <input type="text" name="nome" id="nomeCompleto:">
+           <br>
+        </li>
+        <br>
+        <li>
+            <label for="email">Email: </label>
+            <input type="text" name="email" id="Email:">
+            <br>
+        </li>
+        <br>
+        <li>
+            <label for="mensagem">Entre sua mensagem:</label>
+            <br>
+            <textarea name="mensagem" id="mensagem" cols="35" rows="10"></textarea>
+            <br>
+        </li>
+        <br>
+    </ul>
     <label for="mensagem"></label>    
     <input type="submit" value="Enviar Dados">
     <p>
         <a href="index.html">Retornar a página inicial</a>
     </p>
+    </form>
         <!--Página criada em 10-09-2022 às 16:00hs.-->
 </body>
 </html>
