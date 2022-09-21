@@ -31,7 +31,7 @@
     label {
         /*Tamanho e alinhamento dos formulários*/
         display: inline-block;
-        width: 150px;
+        width: 190px;
         text-align: right;
     }
     
@@ -39,9 +39,9 @@
         font-size: 30px;
     }
 
-    input, textarea {
-        /*Definindo o tamanho dos campos de texto*/
-        /*width: 100px; ***VERIFICAR COM O PROFESSOR*/
+    input, text {
+        /*Definindo o tamanho dos campos de entrada de texto*/
+        width: 100px;
     }
 
     </style>
@@ -58,14 +58,14 @@
         <br>
         <li>
             <label for="email">Email: </label>
-            <input type="text" name="email" id="Email:">
+            <input type="email" name="email" id="Email:">
             <br>
         </li>
         <br>
         <li>
             <label for="mensagem">Entre sua mensagem:</label>
             <br>
-            <textarea name="mensagem" id="mensagem" cols="35" rows="10"></textarea>
+            <textarea required ="required" name="mensagem" id="mensagem" cols="35" rows="10"></textarea>
             <br>
         </li>
         <br>
