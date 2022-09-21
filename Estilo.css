@@ -1,0 +1,53 @@
+
+form {
+    /*Centralizando o formulário na página*/
+    margin: 0 auto;
+    width: 350px;
+    /*Inserindo uma borda de contorno no formulário*/
+    padding: 1em;
+    border: 1px solid rgb(250, 128, 114);
+    border-radius: 2em;
+    /* text-align: center; */
+    /*Tipo de fonte primária*/
+    font: 1em times;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(169, 169, 169);
+    font-family: "Times New Roman";
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    /*Tamanho e alinhamento dos formulários*/
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+input {
+    /*Definindo o tamanho dos campos de entrada de texto*/
+    width: 100px;
+}
+
+input:focus, 
+textarea:focus {
+    /*Adiciona destaque para o elemento quando ele recebe o foco*/
+    border-color: rgb(221, 15, 15);
+}
+
+button {
+    color: rgb(0, 0, 255);
+    margin: auto;
+    width: 200px;
+}
